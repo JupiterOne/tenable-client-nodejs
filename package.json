@@ -1,0 +1,25 @@
+{
+  "name": "tenable-client-nodejs",
+  "version": "0.0.0",
+  "description": "A Tenable.io client for Node.js",
+  "main": "src/index.ts",
+  "repository": "https://github.com/JupiterOne/tenable-client-nodejs",
+  "author": "JuptierOne <development@jupiterone.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf dist && yarn tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node-fetch": "^2.5.10",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.4"
+  }
+}
