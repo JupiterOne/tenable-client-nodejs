@@ -7,8 +7,9 @@
   "repository": "https://github.com/JupiterOne/tenable-client-nodejs",
   "author": "JuptierOne <development@jupiterone.com>",
   "license": "MIT",
-  "private": false,
-  "scripts": {
+  "publishConfig": {
+    "access": "public"
+  },  "scripts": {
     "build": "rm -rf dist && yarn tsc",
     "test": "jest"
   },
