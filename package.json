@@ -1,13 +1,15 @@
 {
   "name": "@jupiterone/tenable-client-nodejs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Tenable.io client for Node.js",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "repository": "https://github.com/JupiterOne/tenable-client-nodejs",
   "author": "JuptierOne <development@jupiterone.com>",
   "license": "MIT",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "rm -rf dist && yarn tsc",
     "test": "jest"
