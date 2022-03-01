@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.1.3
+
+### Added
+
+- Added additional fields to VulnerabilityExploitPlugin interface
+
 ## 0.1.0 - 2021-06-30
 
 ### Added
