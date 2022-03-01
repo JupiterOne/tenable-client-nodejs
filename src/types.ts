@@ -592,7 +592,14 @@ export interface VulnerabilityExportPlugin {
   bid: number[];
   cve: string[];
   exploit_available: boolean | null;
+  exploit_framework_canvas: boolean | null;
+  exploit_framework_core: boolean | null;
+  exploit_framework_d2_elliot: boolean | null;
+  exploit_framework_exploithub: boolean | null;
+  exploit_framework_metasploit: boolean | null;
   exploitability_ease: string | null;
+  exploited_by_malware: boolean | null;
+  exploited_by_nessus: boolean | null;
   vuln_publication_date: string | null;
   vpr?: VulnerabilityExportVpr | null;
   stig_severity: string | null;
