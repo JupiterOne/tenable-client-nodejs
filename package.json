@@ -1,6 +1,6 @@
 {
   "name": "@jupiterone/tenable-client-nodejs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Tenable.io client for Node.js",
   "main": "src/index.js",
   "types": "src/index.d.ts",
