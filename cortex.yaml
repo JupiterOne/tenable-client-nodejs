@@ -1,0 +1,12 @@
+openapi: 3.0.1
+info:
+  title: '@jupiterone/tenable-client-nodejs'
+  description: A Tenable.io client for Node.js
+  x-cortex-git:
+    github:
+      repository: JupiterOne/tenable-client-nodejs
+  x-cortex-owners:
+    - type: group
+      name: JupiterOne/integrations
+  x-cortex-service-groups: tier-4
+  x-cortex-tag: '@jupiterone/tenable-client-nodejs'
